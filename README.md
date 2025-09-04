@@ -1,4 +1,4 @@
-# MyProject
+# Template For Cmake Projects ( EBRYX )
 
 **Description:**  
 MyProject is a C++ application built using **CMake**, **vcpkg**, and **MSVC**.  
