@@ -1,0 +1,7 @@
+PROJECT_NAME           = "MyProject"
+OUTPUT_DIRECTORY       = C:/Users/ZYPHER/Desktop/template/build/docs
+INPUT                  = C:/Users/ZYPHER/Desktop/template/src C:/Users/ZYPHER/Desktop/template/include
+RECURSIVE              = YES
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+EXTRACT_ALL            = YES
