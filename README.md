@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Template For Cmake Projects ( EBRYX )
 =======
 # 🛠️ CMake Project Template
