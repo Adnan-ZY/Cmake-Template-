@@ -1,7 +1,7 @@
 # Template For Cmake Projects ( EBRYX )
-=======
+
 # 🛠️ CMake Project Template
->>>>>>> dcd159a (Added vcpkg integration, presets, and updated README.md)
+
 
 A modern **C++ project template** with **CMake presets** and **vcpkg integration** for dependency management.  
 This template is designed to be **cross-platform** (Windows, Linux, macOS) and easy to extend.
