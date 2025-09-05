@@ -1,0 +1,46 @@
+{
+  "version": 3,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 21,
+    "patch": 0
+  },
+  "configurePresets": [
+    {
+      "name": "default-debug",
+      "displayName": "Debug build (cross-platform, vcpkg)",
+      "description": "Use Debug build with vcpkg toolchain",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/out/build/${presetName}",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "CMAKE_TOOLCHAIN_FILE": "C:/vcpkg/scripts/buildsystems/vcpkg.cmake",
+        "VCPKG_TARGET_TRIPLET": "x64-windows",
+        "CMAKE_CXX_STANDARD": "17"
+      }
+    },
+    {
+      "name": "default-release",
+      "displayName": "Release build (cross-platform, vcpkg)",
+      "description": "Use Release build with vcpkg toolchain",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/out/build/${presetName}",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "CMAKE_TOOLCHAIN_FILE": "C:/vcpkg/scripts/buildsystems/vcpkg.cmake",
+        "VCPKG_TARGET_TRIPLET": "x64-windows",
+        "CMAKE_CXX_STANDARD": "17"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "build-debug",
+      "configurePreset": "default-debug"
+    },
+    {
+      "name": "build-release",
+      "configurePreset": "default-release"
+    }
+  ]
+}

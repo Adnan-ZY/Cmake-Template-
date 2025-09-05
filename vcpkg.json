@@ -1,0 +1,20 @@
+{
+	"name": "myproject",
+	"version": "1.0.0",
+	"dependencies": [
+		{
+			"name": "cli11",
+			"version>=": "2.5.0"
+		},
+
+		{
+			"name": "gtest",
+			"version>=": "1.17.0#1"
+		},
+		{
+			"name": "spdlog",
+			"version>=": "1.15.3"
+		}
+	],
+	"builtin-baseline": "b1b19307e2d2ec1eefbdb7ea069de7d4bcd31f01"
+}
